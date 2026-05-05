@@ -7,7 +7,7 @@
 **Page :** `index.html` — landing page one-page responsive.
 **Objectifs de conversion :**
 - Pré-commande / achat direct (boutique intégrée minimaliste)
-- Inscription newsletter "Le Cercle"
+- Inscription newsletter
 - Affichage des points de vente partenaires (Nantes)
 
 ---
@@ -162,11 +162,11 @@ plus précieux."
 
 ---
 
-### `<section id="newsletter">` — Le Cercle
+### `<section id="newsletter">` — Restez informés
 **Layout :** Fond `--color-secondary`, texte blanc, centré.
 
 ```
-H2 : "Rejoignez Le Cercle"
+H2 : "Restez informés"
 P  : Recettes locales, conseils santé et accès prioritaire aux nouvelles références.
 Form: [Email _______________] [S'inscrire]
 ```
