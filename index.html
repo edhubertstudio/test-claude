@@ -8,7 +8,7 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 
   <style>
@@ -115,14 +115,18 @@
     }
 
     .logo {
-      font-family: var(--font-display);
-      font-size: 1.5rem;
-      font-weight: 500;
-      letter-spacing: 0.05em;
-      color: var(--color-white);
-      transition: color 300ms ease;
+      font-family: 'Albert Sans', system-ui, sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      color: #492800;
+      background-color: #f37d07;
+      padding: 0.35rem 0.75rem;
+      border-radius: 3px;
+      transition: opacity 200ms ease;
     }
-    #site-header.scrolled .logo { color: var(--color-primary); }
+    .logo:hover { opacity: 0.9; }
+    #site-header.scrolled .logo { color: #492800; }
 
     .nav-links {
       display: flex;
